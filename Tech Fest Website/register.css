@@ -1,0 +1,95 @@
+/* Registration Section */
+.registration {
+  max-width: 540px;
+  margin: 4rem auto 6rem;
+  padding: 0 1rem;
+  background: #f9faff;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(52, 52, 89, 0.11);
+  padding: 2.5rem 2rem;
+}
+
+.registration h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #343571;
+  margin-bottom: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 1.1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #2e2e5c;
+}
+
+.form-group label span {
+  color: #e74c3c;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.65rem 0.85rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #d0d5f5;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #ffd700;
+  outline: none;
+}
+
+.error-msg {
+  color: #e74c3c;
+  font-size: 0.83rem;
+  height: 16px;
+  margin-top: 2px;
+  visibility: hidden;
+}
+
+.success-msg {
+  color: #2ecc71;
+  font-size: 1.05rem;
+  margin-top: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  display: none;
+}
+
+button[type="submit"] {
+  background: #ffd700;
+  color: #2e2e5c;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.85rem 0;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #e6b800;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .registration {
+    margin: 2rem 1rem 4rem;
+  }
+}

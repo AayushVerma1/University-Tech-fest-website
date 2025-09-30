@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC University Tech Fest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar_brand">
+            <a href="#hero">ABC Tech Fest</a>
+        </div>
+        <button class="navbar_toggle" id="navbar-toggle" aria-label="Toggle navigation">
+            <span class="navbar_bar"></span>
+            <span class="navbar_bar"></span>
+            <span class="navbar_bar"></span>
+        </button>
+        <ul class="navbar_links" id="navbar-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#registration">Registration</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero-Section -->
+     <section class="hero" id="hero">
+        <div class="hero-video-bg">
+            <video src="assets/hero.mp4" autoplay loop muted playsinline></video>
+        </div>
+
+        <div class="hero-content">
+            <h1>ABC University Annual Tech Fest 2025</h1>
+            <p>Welcome to ABC University Annual Tech Fest 2025! Join coding wizards, robotics prodigies, cultural enthusiasts, and technology’s brightest minds in a week-long celebration of innovation and creativity.</p>
+            <div class="hero-btns">
+                <a class="hero-btn" onclick="window.location.href='register.html';">Register Now</a>
+                <a href="#events" class="hero-btn">Explore Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About-Section -->
+    <section class="about" id="about">
+        <div class="about-row">
+            <div class="about-col about-text">
+                <h2>About the Fest</h2>
+                <p>
+                    ABC University Tech Fest is a celebration of creativity, curiosity, and collaboration.
+                    We invite you to join a vibrant community of students and innovators for thrilling coding contests, ingenious robotics battles, inspiring guest lectures, and lively cultural events.
+                    At Tech Fest, knowledge meets excitement—everyone’s welcome to explore, compete, and have fun!
+                </p>
+                <div class="about-icons">
+                    <div>
+                        <span class="about-icon">&#128214;</span>
+                        <h3>Learn</h3>
+                        <p>Attend guest lectures and tech talks from experts across software, AI, robotics, and entrepreneurship.</p>
+                    </div>
+                    <div>
+                        <span class="about-icon">&#128187;</span>
+                        <h3>Built</h3>
+                        <p>Participate in coding contests and hands-on challenges to sharpen your skills and showcase your talent.</p>
+                    </div>
+                    <div>
+                        <span class="about-icon">&#127937;</span>
+                        <h3>Compete</h3>
+                        <p>Battle it out in robotics competitions — from line-followers to autonomous challenges.</p>
+                    </div>
+                    <div>
+                        <span class="about-icon">&#127882;</span>
+                        <h3>Celebrate</h3>
+                        <p>Unwind with cultural nights featuring music, dance, and student-led performances.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-col about-img">
+                <img src="assets/image.png" alt="Tech Fest Illustration" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Event-Section -->
+     <section class="events" id="events">
+        <h2>Fest Events</h2>
+        <div class="events-grid">
+
+            <div class="event-card">
+                <h3>Coding Contests</h3>
+                <p>Tackle algorithmic problems and build quick prototypes. Solo and team categories available.
+                    <ul>
+                        <li>Algorithms Sprint</li>
+                        <li>Hack-a-Feature</li>
+                        <li>Web Jam</li>
+                    </ul>    
+                </p>
+            </div>
+
+            <div class="event-card">
+                <h3>Robotics Competitions</h3>
+                <p>Test your bots in speed, stability, and autonomy challenges.
+                    <ul>
+                        <li>Line Follower</li>
+                        <li>Robo Soccer</li>
+                        <li>Obstacle Course</li>
+                    </ul>    
+                </p>            
+            </div>
+
+            <div class="event-card">
+                <h3>Guest Lectures</h3>
+                <p>Hear from engineers, founders, and researchers about the future of tech.
+                    <ul>
+                        <li>AI & Ethics</li>
+                        <li>Scaling Startups</li>
+                        <li>Robotics in Industry</li>
+                    </ul>    
+                </p>           
+            </div>
+
+            <div class="event-card">
+                <h3>Cultural Events</h3>
+                <p>Enjoy performances, open mics, and a closing night celebration.
+                    <ul>
+                        <li>Music Night</li>
+                        <li>Dance Showcase</li>
+                        <li>Open Stage</li>
+                    </ul>    
+                </p>            
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Timeline -->
+     <section class="timeline" id="schedule">
+        <h2>Fest Schedule</h2>
+        <div class="timeline-container">
+
+            <div class="timeline-item">
+            <div class="timeline-icon">01</div>
+            <div class="timeline-content">
+                <h3>Day 1 — Friday</h3>
+                <time>Oct 10, 10:00 AM</time>
+                <p>
+                        10:00 Inauguration & Keynote<br>
+                        11:30 Coding: Algorithms Sprint<br>
+                        13:00 Guest Lecture: AI & Ethics<br>
+                        18:00 Cultural: Open Stage<br>   
+                </p>
+            </div>
+            </div>
+
+            <div class="timeline-item">
+            <div class="timeline-icon">02</div>
+            <div class="timeline-content">
+                <h3>Day 2 — Saturday</h3>
+                <time>Oct 11, 10:30 PM</time>
+                <p>
+                    10:30 Robotics: Line Follower<br>
+                    13:00 Guest Lecture: Scaling Startups<br>
+                    15:00 Coding: Web Jam<br>
+                    19:00 Cultural: Music Night<br>
+                </p>
+            </div>
+            </div>
+
+            <div class="timeline-item">
+            <div class="timeline-icon">03</div>
+            <div class="timeline-content">
+                <h3>Day 3 — Sunday</h3>
+                <time>Oct 12, 11:00 AM</time>
+                <p>
+                    11:00 Robotics: Obstacle Course <br>
+                    13:30 Guest Lecture: Robotics in Industry <br>
+                    16:00 Awards & Closing Ceremony <br>
+                </p>
+            </div>
+            </div>
+
+            <div class="timeline-item">
+            <div class="timeline-icon">04</div>
+            <div class="timeline-content">
+                <h3>Cultural Night Gala</h3>
+                <time>Oct 12, 5:00 PM</time>
+                <p>A lively evening filled with music, dance, and creative performances celebrating diversity.</p>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- sponser-section -->
+    <!-- <section class="sponsors" id="sponsors">
+        <h2>Our Sponsors</h2>
+        <div class="sponsor-logos">
+            <a href="#" target="_blank" rel="noopener" aria-label="TechGenix Sponsor">
+            <img src="assets/logo1.png" alt="TechGenix Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="RoboWorks Sponsor">
+            <img src="assets/logo2.png" alt="RoboWorks Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="CodeMaster Sponsor">
+            <img src="assets/logo3.png" alt="CodeMaster Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="AI Innovate Sponsor">
+            <img src="assets/logo4.png" alt="AI Innovate Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Tech Grinder Sponsor">
+            <img src="assets/logo5.png" alt="Tech Grinders Logo" />
+            </a>
+        </div>
+    </section>
+ -->
+
+    <section class="sponsors" id="sponsors">
+        <h2>Our Sponsors</h2>
+        <p>We thank our partners for supporting innovation and student excellence.</p>
+        <div class="sponsor-logos-outer">
+        <div class="sponsor-logos sponsor-logos-inner">
+            <a href="#" target="_blank" rel="noopener" aria-label="TechGenix Sponsor">
+                <img src="assets/logo1.png" alt="TechGenix Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="RoboWorks Sponsor">
+                <img src="assets/logo2.png" alt="RoboWorks Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="CodeMaster Sponsor">
+                <img src="assets/logo3.png" alt="CodeMaster Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="AI Innovate Sponsor">
+                <img src="assets/logo4.png" alt="AI Innovate Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Tech Grinder Sponsor">
+                <img src="assets/logo5.png" alt="Tech Grinders Logo" />
+            </a>
+
+            <!-- Duplicate logos for seamless loop -->
+            <a href="#" target="_blank" rel="noopener" aria-label="TechGenix Sponsor">
+                <img src="assets/logo1.png" alt="TechGenix Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="RoboWorks Sponsor">
+                <img src="assets/logo2.png" alt="RoboWorks Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="CodeMaster Sponsor">
+                <img src="assets/logo3.png" alt="CodeMaster Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="AI Innovate Sponsor">
+                <img src="assets/logo4.png" alt="AI Innovate Logo" />
+            </a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Tech Grinder Sponsor">
+                <img src="assets/logo5.png" alt="Tech Grinders Logo" />
+            </a>
+        </div>
+        </div>
+    </section>
+
+    <!-- Registration-Section -->
+     <section class="registeration" id="registration">
+        <h2>Ready to join the competition?</h2>
+        <p>Secure your spot for contests, robotics, talks, and cultural shows. <br> Spots are limited. Confirmation will be sent via email.</p>
+        <button class="register-btn">
+            <a onclick="window.location.href='register.html';">Register Now</a>
+        </button>
+     </section>
+
+    <!-- Contact-Section -->
+    <section class="contact" id="contact">  
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to the Tech Fest team. </p>
+        <div class="contact-container">
+            <div class="left-side">
+                <h3> General Enquiries </h3>
+                <div class="contact-icons">
+                        <p>&#128386 <b>Email : </b>techfest@abcuniversity.in </p>
+                        <p>&#127963 <b>Address : </b>ABC University, 123 Campus Way, Delhi, India </p>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <form action="#">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                    <textarea name="message" rows="5" placeholder="How can we help?" required></textarea> 
+                    <button type="submit">Send Message</button> 
+                </form>
+            </div>
+        </div> 
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 ABC University Tech Fest. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+

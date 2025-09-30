@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Fest Registeration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <section class="registration" id="registration">
+        <h2>Register for the Fest</h2>
+        <form id="registration-form" novalidate>
+            <div class="form-group">
+            <label for="name">Full Name<span>*</span></label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+            <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group">
+            <label for="email">Email<span>*</span></label>
+            <input type="email" id="email" name="email" placeholder="example@domain.com" required />
+            <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group">
+            <label for="phone">Mobile Number<span>*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="10-digit number" required pattern="[0-9]{10}" />
+            <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group">
+            <label for="college">College<span>*</span></label>
+            <input type="text" id="college" name="college" placeholder="Your college name" required />
+            <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group">
+            <label for="events">Select Events to Participate In<span>*</span></label>
+            <select id="events" name="events" multiple required>
+                <option value="coding">Coding Contests</option>
+                <option value="robotics">Robotics Competitions</option>
+                <option value="lectures">Guest Lectures</option>
+                <option value="cultural">Cultural Events</option>
+            </select>
+            <small class="error-msg"></small>
+            </div>
+
+            <button type="submit">Submit Registration</button>
+            <p id="success-msg" class="success-msg"></p>
+        </form>
+    </section>
+
+
+    <script src="register.js"></script>
+</body>
+</html>
